@@ -18,19 +18,10 @@
       width="616" height="117" viewBox="0 0 616 117" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M3.07996 110V113H6.07996H29.12H32.12V110V41.4456L58.952 59.3336V110V113H61.952H84.992H87.992V110V59.3296L114.68 41.4593V110V113H117.68H140.72H143.72V110V7.04001V4.04001H140.72H121.424H120.477L119.702 4.58336L73.4 37.0368L27.0978 4.58336L26.3226 4.04001H25.376H6.07996H3.07996V7.04001V110ZM168.291 99.8724L168.297 99.8778L168.303 99.8831C179.103 109.243 194.105 113.72 212.892 113.72H240.54C259.51 113.72 274.612 109.248 285.417 99.8831L285.423 99.8778L285.429 99.8724C296.336 90.3156 301.572 76.3253 301.572 58.448C301.572 40.6654 296.335 26.7665 285.423 17.3058C274.605 7.83138 259.25 3.32001 239.82 3.32001H213.9C194.47 3.32001 179.115 7.83138 168.298 17.3058C157.385 26.7665 152.148 40.6654 152.148 58.448C152.148 76.3253 157.384 90.3156 168.291 99.8724ZM261.522 83.7191L261.512 83.7252L261.503 83.7313C256.332 87.1219 248.694 89 238.236 89H215.916C205.258 89 197.469 87.1192 192.198 83.7191C187.899 80.9456 184.828 76.7313 183.115 70.808H270.605C268.892 76.7313 265.821 80.9456 261.522 83.7191ZM309.924 110V113H312.924H335.964H338.964V110V7.04001V4.04001H335.964H312.924H309.924V7.04001V110ZM349.784 110.72V113.72H352.784H438.032C449.161 113.72 458.224 110.96 464.799 105.036C471.556 99.0371 474.728 90.3894 474.728 79.616C474.728 68.7656 471.566 60.1007 464.79 54.1869C458.215 48.2695 449.155 45.512 438.032 45.512H386.48C382.783 45.512 380.321 44.6978 378.724 43.4476C377.35 42.2865 376.376 40.2699 376.376 36.704C376.376 33.1018 377.367 31.1781 378.694 30.1281L378.723 30.1048L378.752 30.0807C380.344 28.7538 382.79 27.8964 386.477 27.896C386.478 27.896 386.479 27.896 386.48 27.896L464.954 28.04L467.96 28.0455V25.04V6.32001V3.32001H464.96H384.032C372.908 3.32001 363.816 6.02873 357.152 11.8314C350.463 17.6435 347.336 26.1181 347.336 36.704C347.336 47.2929 350.463 55.7997 357.131 61.7023L357.151 61.7195L357.17 61.7364C363.834 67.433 372.919 70.088 384.032 70.088H435.584C439.367 70.088 441.745 70.9913 443.209 72.3275L443.259 72.3732L443.311 72.4167C444.657 73.5387 445.688 75.6591 445.688 79.616C445.688 83.557 444.664 85.7728 443.259 87.0041C441.795 88.2745 439.396 89.1439 435.584 89.144C435.584 89.144 435.584 89.144 435.584 89.144L352.789 89L349.784 88.9948V92V110.72ZM479.574 59.168V62.168H482.574H505.902H508.902V59.168V28.76H528.534V110V113H531.534H554.574H557.574V110V28.76H582.966V59.168V62.168H585.966H609.294H612.294V59.168V7.04001V4.04001H609.294H482.574H479.574V7.04001V59.168ZM192.198 33.3209C197.479 29.9141 205.133 28.04 215.484 28.04H238.236C248.587 28.04 256.241 29.9141 261.522 33.3209C265.817 36.0918 268.88 40.2629 270.593 46.088H183.128C184.841 40.2629 187.904 36.0918 192.198 33.3209Z" stroke="#EBEBEB" stroke-width="6"/>
         </svg>
-
-
-     <div>
-      <div class="video-background">
-         <div class="video-foreground">
-           <iframe src="https://www.youtube.com/embed/FHalHkfM5Aw?vq=hd1080&autoplay=1&loop=1&fs=0&controls=0&disablekb=1&playlist=FHalHkfM5Aw&mute=1"
-            frameborder="0" allowfullscreen="autoplay"></iframe>
-         </div>
-       </div>
-     
-
+        
        </div>
      </div>
+     <nav>
       <ul id="navbar">
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="shop.html">Shop</a></li>
@@ -38,15 +29,37 @@
         <li><a href="about.html">About</a></li>
         <li><a href="index.html">Contact</a></li>
         <li><a href="cart.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-        </a></li>
+        </a>
       </ul>
+     </nav>
+      <div id="hamburger" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li><a href="cart.html"><i class="fa fa-shopping-basket" aria-hidden="true"></a></i>
+        </ul>
      </div>
   </section>
 
-  <section id="hero">
-
-  
-
+    
+    <div>
+      <div class="video-background">
+         <div class="video-foreground">
+           <iframe src="https://www.youtube.com/embed/FHalHkfM5Aw?vq=hd1080&autoplay=1&loop=1&fs=0&controls=0&disablekb=1&playlist=FHalHkfM5Aw&mute=1"
+            frameborder="0" allowfullscreen="autoplay"></iframe>
+         </div>
+       </div>
+       
+       <video id="mobile-video-background" poster="Video Mobile Background/poster.PNG" autoplay muted playsinline loop>
+         <source src="Video Mobile Background/poly gen.mp4" type="video/mp4">
+       </video>
+        
 
    <script src="script.js"></script>
 </body>
